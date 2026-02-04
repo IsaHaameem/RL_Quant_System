@@ -1,0 +1,19 @@
+# Ignore Virtual Env
+venv/
+__pycache__/
+*.pyc
+
+# Ignore Data (Too large for GitHub)
+data/
+src/data_loader/*.csv
+*.csv
+*.zip
+
+# Ignore IDE settings
+.vscode/
+.idea/
+
+# Keep the models if they are small, but usually we ignore them:
+# saved_agents/
+# For your project, you might WANT to commit the agents if they are <100MB
+# so the deployment works immediately. If so, remove the line above.
